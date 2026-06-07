@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>我的个人博客</title>
+</head>
+<body>
+<h1>欢迎来到我的 GitHub 个人博客</h1>
+<p>这是一个用来测试图片绝对路径与相对路径的页面。</p>
+
+<hr>
+
+<h3>1. 绝对路径图片示例</h3>
+<img src="https://images.unsplash.com/photo-1531403009284-440f080d1e12" alt="网络绝对路径图片" width="400">
+<p>说明：此处的图片路径是网络上的绝对 URL（以 https:// 开头）。</p>
+
+<hr>
+
+<h3>2. 相对路径图片示例</h3>
+<img src="../image/1.png" alt="本地相对路径图片" width="400">
+<p>说明：此处的路径使用了相对路径 <code>../image/1.png</code>，成功返回上一层并找到了图片。</p>
+</body>
+</html>
